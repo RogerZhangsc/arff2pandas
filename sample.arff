@@ -1,0 +1,10 @@
+@RELATION feature
+
+@ATTRIBUTE power NUMERIC
+@ATTRIBUTE label {good,bad}
+
+@DATA
+0.3,good
+0.5,good
+3.2,bad
+2.2,bad
