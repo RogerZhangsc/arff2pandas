@@ -15,7 +15,7 @@ require
 ## usage
 import
 ```py
-import arff2pandas as a2p
+from arff2pandas import a2p
 ```
 
 load arff from file to pandas.DataFrame
@@ -53,4 +53,3 @@ df = pd.DataFrame({
 })
 print(a2p.dumps(df))
 ```
-

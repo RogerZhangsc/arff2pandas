@@ -1,4 +1,4 @@
-import arff2pandas as a2p
+from arff2pandas import a2p
 
 if __name__ == '__main__':
     with open('sample.arff','r') as f:

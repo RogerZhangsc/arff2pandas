@@ -10,7 +10,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='1.0.0',
+    version='1.0.1',
 
     description='A bidirectional converter arff to pandas.DataFrame',
 
@@ -55,7 +55,7 @@ setup(
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
-    packages=find_packages(exclude=['contrib', 'docs', 'tests','sample.py','sample.arff']),
+    packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
 
     # Alternatively, if you want to distribute just a my_module.py, uncomment
     # this:
